@@ -1,7 +1,60 @@
-body {
-  background-color: white;
+
+/*--got this from http://davidjrush.com/blog/2008/12/setting-up-your-first-external-css-file/ --*/
+/*--this is a comment, you can put anything inside the star and slash--*/
+body{
+   background-color: white;
+   margin: 0px;
+   padding: 0px;
 }
-th {
-    background-color: #4CAF50;
-    color: white;
+div{
+   margin: 0px;
+   padding: 0px;
+}
+section {
+
+}
+aside {
+  float: right;
+}
+
+img{
+   border: 0px;
+   margin: 0px;
+   padding: 0px;
+   
+}
+table{
+   background-color: 333333;
+   border-collapse: collapse;
+   margin: 0px;
+   padding: 0px;
+}
+p{
+   margin: 15px;
+   padding: 0px;
+}
+ul{
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-left: 35px;
+   padding: 0px;
+   list-style-image: url('image location');
+   line-height: 20px; (gives spacing between list items)
+}
+a{
+   text-decoration: underline/none;
+   color: hexcode/word;
+   font-weight: bold/normal;
+}
+a:hover{
+   text-decoration: underline/none;
+   color: hexcode/word;
+   font-weight: bold/normal;
+   /*make sure to change at least one thing from your a tag definition*/
+}
+a:visited{
+   text-decoration: underline/none;
+   color: hexcode/word;
+   font-weight: bold/normal;
+   /*make sure to change at least one thing from your a tag definition*/
 }
