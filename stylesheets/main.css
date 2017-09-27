@@ -11,23 +11,30 @@ div{
    padding: 0px;
 }
 section {
+  float: left;
+   width: 60%;
 
 }
 aside {
+  background-color: 000000;
   float: right;
+  width: 30%;
 }
 
 img{
    border: 0px;
    margin: 0px;
    padding: 0px;
-   
+   float: left;
+   width: 100%;
+
 }
 table{
    background-color: 333333;
    border-collapse: collapse;
    margin: 0px;
    padding: 0px;
+   width: 100%;
 }
 p{
    margin: 15px;
@@ -57,4 +64,11 @@ a:visited{
    color: hexcode/word;
    font-weight: bold/normal;
    /*make sure to change at least one thing from your a tag definition*/
+}
+
+footer{
+  background-color: 333333;
+  width: 100%;
+  clear: both;
+  margin-bottom: 0;
 }
