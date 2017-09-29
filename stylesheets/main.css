@@ -21,14 +21,32 @@ aside {
 
 img{
    border: 0px;
-   margin: 10px;
+   margin: 15px;
    padding: 0px;
    float: left;
    width: 100%;
 
 }
+
+.inset_image{
+  border: 0px;
+  margin: 5px;
+  padding:5px;
+  float: right;
+  width: 70%;
+}
+
 table{
    background-color: 333333;
+   border-collapse: collapse;
+   margin: 0px;
+   padding: 0px;
+   width: 100%;
+
+}
+
+.header_table{
+   background-color: 800000;
    border-collapse: collapse;
    margin: 0px;
    padding: 0px;
@@ -36,8 +54,7 @@ table{
 }
 
 h1 {
-
-  color: #000000;
+  color: white;
   font-family: "Helvetica Neue", Arial,sans-serif;
   font-size: 2em;
   margin-top: 0.67em;
@@ -45,11 +62,9 @@ h1 {
   margin-left: 0;
   margin-right: 0;
   font-weight: bold;
-
 }
 
 h2 {
-  display: block;
   color: #000000;
   font-family: "Helvetica Neue", Arial,sans-serif;
   font-size: 1.5em;
@@ -57,7 +72,18 @@ h2 {
   margin-bottom: 0.67em;
   margin-left: 0;
   margin-right: 0;
-  font-weight: bold
+  font-weight: bold;
+}
+
+h3 {
+  color: #000000;
+  font-family: "Helvetica Neue", Arial,sans-serif;
+  font-size: 1em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
 }
 
 p {
@@ -69,9 +95,32 @@ p {
   margin-bottom: 0.67em;
   margin-left: 0;
   margin-right: 0;
-  font-weight: normal
+  font-weight: normal;
 }
 
+.links_format{
+  color: white;
+  font-family: "Helvetica Neue", Arial,sans-serif;
+  font-size: 1em;
+  margin-top: .33em;
+  margin-bottom: .33em;
+  padding: 1em;
+  float: right;
+  font-weight: normal;
+}
+
+.footer_text{
+  display: block;
+  color: white;
+  font-family: "Helvetica Neue", Arial,sans-serif;
+  font-size: .75em;
+  margin-top: 0.33em;
+  margin-bottom: 0.33em;
+  padding: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: normal;
+}
 
 ul{
    margin-top: 10px;
@@ -79,8 +128,8 @@ ul{
    margin-left: 35px;
    padding: 0px;
    list-style-image: url('image location');
-   line-height: 20px; (gives spacing between list items)
-}
+   line-height: 20px;
+ }
 
 
 footer{
